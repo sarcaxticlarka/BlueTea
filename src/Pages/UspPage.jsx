@@ -2,7 +2,7 @@ import React from 'react';
 import WaveSVG from './WaveSVG';
 
 
-export default function Usp() {
+export default function UspPage() {
     return (
         <div className="bg-[#80B5EE] text-white p-6 flex items-center justify-center h-screen relative z-0">
             <div className="absolute top-32 flex gap-72 left-0 w-full z-10">

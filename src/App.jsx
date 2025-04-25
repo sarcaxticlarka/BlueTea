@@ -6,26 +6,27 @@ import Herbal from './Pages/Herbal'
 import Product from './Pages/Product'
 import SkinPack from './Pages/SkinPack'
 import TestimonialCarousel from './Pages/TestimonialCarousel'
-import AvailableOn from './Pages/ AvailableOn' 
+import AvailableOn from './Pages/ AvailableOn'
 import FAQAccordion from './Pages/FAQAccordion'
 import Footer from './Pages/Footer'
-import Usp from './Pages/USp'
+import UspPage from './Pages/UspPage'
+ 
 
 const App = () => {
   return (
     <div>
       <HeroSection />
       <About />
-       <HorizontalScrollSection />
-     <Usp />
-       <Herbal />
-       <Product />
-       <SkinPack />
-       <AvailableOn />
-       <TestimonialCarousel />
-       <FAQAccordion />
-       <Footer />
-       
+      <HorizontalScrollSection />
+      <UspPage />
+      <Herbal />
+      <Product />
+      <SkinPack />
+      <AvailableOn />
+      <TestimonialCarousel />
+      <FAQAccordion />
+      <Footer />
+
     </div>
   )
 }
