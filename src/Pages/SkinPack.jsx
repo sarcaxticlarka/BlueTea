@@ -1,4 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
+import img5 from "../assets/images/img5.webp"
+import skin1 from "../assets/images/skin1.webp"
+import skin2 from "../assets/images/skin2.webp"
+import bags1 from "../assets/images/bags1.webp"
+import bags2 from "../assets/images/bags2.webp"
+import bags3 from "../assets/images/bags3.webp"
+import bags4 from "../assets/images/bags4.webp"
 
 const SkinPack = () => {
     const [hoveredCard, setHoveredCard] = useState(null);
@@ -20,22 +27,22 @@ const SkinPack = () => {
             id: 1,
             title: "Diabo Tea Bags",
             description: "Regulates Blood-Sugar | Promotes balance",
-            defaultImage: "https://bluetea.co.in/cdn/shop/files/Daibo.jpg?v=1718395749&width=1200",
-            hoverImage: "https://bluetea.co.in/cdn/shop/files/Daibo_Lifestyle_a72fe5cf-9dcb-407b-aaf3-c625ef3a03fb.jpg?v=1718760762&width=360"
+            defaultImage:  bags3,
+            hoverImage: bags4
         },
         {
             id: 2,
             title: "Imunno Tea Bags",
             description: "Strengthens Immunity | Boosts Energy",
-            defaultImage: "https://bluetea.co.in/cdn/shop/files/Immouno.jpg?v=1718395732&width=1200",
-            hoverImage: "https://bluetea.co.in/cdn/shop/files/Immuno_Lifestyle.jpg?v=1718760970&width=1200"
+            defaultImage:  bags1,
+            hoverImage: bags2,
         },
         {
             id: 3,
             title: "Herbal Infusion Tea Bags",
             description: "Helps to reduce pigmentation",
-            defaultImage: "https://bluetea.co.in/cdn/shop/files/SkinGlowFront.jpg?v=1721110940&width=1200",
-            hoverImage: "https://bluetea.co.in/cdn/shop/files/SkinGlow_Lifestyle.jpg?v=1721110939&width=1200"
+            defaultImage: skin1,
+            hoverImage:  skin2
         },
     ];
 
@@ -54,7 +61,7 @@ const SkinPack = () => {
                 />
                 <img
                     className='h-full w-full object-cover'
-                    src="https://bluetea.co.in/cdn/shop/files/PAck_of_7_f0abe3bf-8bc9-4256-949f-91c2dec1bdf3.jpg?v=1738762006&width=3000"
+                    src={img5}
                     alt=""
                 />
                 

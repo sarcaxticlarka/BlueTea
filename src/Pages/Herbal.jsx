@@ -45,6 +45,8 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import WaveSVG from './WaveSVG';
+import img4 from "../assets/images/img4.webp"
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -82,7 +84,7 @@ const Herbal = () => {
         <img
           ref={herbalImgRef}
           className='h-full w-full object-cover will-change-transform'
-          src="https://bluetea.co.in/cdn/shop/articles/Blog_22..04.24_3.jpg?v=1713859854&width=700"
+          src={img4}
           alt=""
         />
 

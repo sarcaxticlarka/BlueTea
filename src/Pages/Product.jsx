@@ -1,5 +1,15 @@
 import { useState } from 'react';
 import WaveSVG from './WaveSVG';
+import flower1 from "../assets/images/flower1.webp"
+import flower2 from "../assets/images/flower2.webp"
+import combo1 from "../assets/images/combo1.webp"
+import combo2 from "../assets/images/combo2.webp"
+import combo3 from "../assets/images/combo3.webp"
+import combo4 from "../assets/images/combo4.webp"
+import skin1 from "../assets/images/skin1.webp"
+import skin2 from "../assets/images/skin2.webp"
+
+
 
 
 export default function Product() {
@@ -8,28 +18,29 @@ export default function Product() {
             id: 1,
             title: "Butterfly Pea Flower ",
             description: "Experience the benefits of Butterfly Pea Tea, a caffeine-free",
-            hoverImage: "https://bluetea.co.in/cdn/shop/files/Helps_you_get_in_shape.jpg?v=1744889206&width=1200"
+            defaultImage: flower1,
+            hoverImage: flower2,
         },
         {
             id: 2,
             title: "Flower Herbal Infusion",
             description: "Nourish your mind and soul with the tranquil balance of this combo housing butterfly pea flower.",
-            defaultImage: "https://bluetea.co.in/cdn/shop/files/Packof2_1800x1800_58fad682-3812-47ac-8d5c-32f2edcd5286.jpg?v=1718784395&width=1000",
-            hoverImage: "https://bluetea.co.in/cdn/shop/files/EH50_ICEHOT_1800x1800_14ae86c5-e11a-4680-af4c-edb55dad103b.jpg?v=1718784693&width=1000"
+            defaultImage: combo1,
+            hoverImage:  combo2,
         },
         {
             id: 3,
             title: "Combo-Butterfly Pea",
             description: "Soothe Yourself with our 100% Herbal, combo of Butterfly Pea ",
-            defaultImage: "https://bluetea.co.in/cdn/shop/files/Front_1800x1800_e887cee6-2981-46b1-ad94-4ed1ae4fe6e7.jpg?v=1718707254&width=1000",
-            hoverImage: "https://bluetea.co.in/cdn/shop/files/Glowing_Skin_with_hibiscus_2_2.jpg?v=1734506902&width=1000"
+            defaultImage:  combo3,
+            hoverImage:  combo4,
         },
         {
             id: 4,
             title: "Skin Glow Herbal Infusion",
             description: "Skin Glow Infusion specially made for hydrating & soothing the skin.",
-            defaultImage: "https://bluetea.co.in/cdn/shop/files/SkinGlowFront.jpg?v=1721110940&width=1000",
-            hoverImage: "https://bluetea.co.in/cdn/shop/files/SkinGlow_Lifestyle.jpg?v=1721110939&width=1000"
+            defaultImage: skin1,
+            hoverImage: skin2
         }
     ];
 

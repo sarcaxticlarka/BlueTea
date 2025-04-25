@@ -42,7 +42,7 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import WaveSVG from './WaveSVG';
-
+import img3 from "../assets/images/img3.webp"
 gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
@@ -77,7 +77,7 @@ const About = () => {
                 <img
                     ref={imgRef}
                     className='img1 h-[100%] left-0 w-full object-cover z-0'
-                    src="https://bluetea.co.in/cdn/shop/files/Nature_s_Goodness_HIB_WEB.jpg?v=1744781409&width=3000"
+                    src={img3}
                     alt="Background"
                 />
                 <div className="absolute flex gap-20 -bottom-20 left-0 w-full z-10">
